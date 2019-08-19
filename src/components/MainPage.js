@@ -1,4 +1,5 @@
 import React from "react"
+import MoviesContainer from "./MoviesContainer";
 
 class MainPage extends React.Component {
   state = {
@@ -6,7 +7,7 @@ class MainPage extends React.Component {
   }
 
   render() {
-    return <h1>WELCOME TO NEONFLIX </h1>
+    return (<MoviesContainer/>)
   }
 }
 
