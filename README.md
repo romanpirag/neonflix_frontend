@@ -6,3 +6,5 @@ Watch your favorite 80's movie by genre.
 • JAVASCRIPT ES6 / REACT FRONTEND / CUSTOM CSS (No Bootstrap/Samantic etc..)
 • RUBY ON RAILS BACKEND
 
+This is an ongoing project 
+
