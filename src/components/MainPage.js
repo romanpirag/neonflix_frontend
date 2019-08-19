@@ -9,13 +9,11 @@ class MainPage extends React.Component {
 
   render() {
     return (
-    <>
-    
-    <MoviesContainer/>
+      <>
+        <GenresContainer />
 
-    <GenresContainer/>
-
-    </>
+        <MoviesContainer />
+      </>
     )
   }
 }
