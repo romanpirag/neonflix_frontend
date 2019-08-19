@@ -1,15 +1,16 @@
 import React from "react"
+import Movie from "./Movie"
 
 
 
 const MoviesContainer = () => {
     return(
         <>
-            <h2>MOVIE</h2>
-            <h2>MOVIE</h2>
-            <h2>MOVIE</h2>
-            <h2>MOVIE</h2>
-            <h2>MOVIE</h2>
+           <Movie/>
+           <Movie/>
+           <Movie/>
+           <Movie/>
+           <Movie/>
         </>
     )
 }
