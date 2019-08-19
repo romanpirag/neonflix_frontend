@@ -6,7 +6,7 @@ class MainPage extends React.Component {
   }
 
   render() {
-    return <h1>HELLO HELLO HELLO </h1>
+    return <h1>WELCOME TO NEONFLIX </h1>
   }
 }
 
