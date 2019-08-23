@@ -1,7 +1,60 @@
+/* @import "~normalize.css"; */
+@import url("https://fonts.googleapis.com/css?family=Contrail+One&display=swap");
+
+
+* {
+  box-sizing: border-box;
+}
+
+
 .App {
   text-align: center;
 }
 
+html {
+  background-image: url("https://www.xmple.com/wallpaper/black-purple-gradient-linear-1920x1080-c2-000000-4b0082-a-150-f-14.svg");
+  background-size: cover;
+  height: 100%;
+}
+
 body {
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACiCAMAAAD84hF6AAAAdVBMVEUcHBxJSUlEREQuLi44ODgwMDAnJycyMjIsLCwrKysqKiopKSkoKCgdHR0lJSUkJCQjIyMiIiIhISEgICAfHx8eHh49PT1ISEhHR0dGRkZCQkJBQUFAQEA/Pz8+Pj4zMzM8PDw6Ojo5OTk2NjY1NTU0NDQxMTEpgTagAAABe0lEQVR4nO3Qt25QQQBE0QFjMNHknNP/fyIthQvrNk9POqfc1a5Gd3cIdvSAc5ItkS2RLZEtkS2RLZEtkS2RLZEtkS2RLZEtkS3ZOwLZEtmSvSeQLZEt2QcC2RLZEtkS2ZLdJZAtkS2RLZEtkS3ZRwLZEtmSfSKQLZEt2WcC2RLZkn0hkC2RLdlXAtkS2ZK9JZAtkS3Zd4IdPeCcdvSAc9rRA85pRw84p/0gkC2RLdlPAtkS2ZLdI5AtkS2RLZEtkS3ZLwLZEtmS/SaQLZEt2R8C2RLZkn0jkC2RLdkDAtkS2ZL9JZAt+S/b5Q3XN53dSn54698OnbZLAtkS2RLZEtmSXRDIlsiWyJbIlsiW7IpAtkS2ZA8JZEtkS/aIQLZEtmSPCWRLZEv2hEC2RLZk9wlkS2RLZEtkS/aMQLZEtmTXBLIlsiV7TiBbIluyFwSyJbIle0kgWyJbslcEsiWyJXtNIFsiW7I3BLIlsiV7SiBbIlsyAAAAAABO6B+FZVjqIdjLPwAAAABJRU5ErkJggg==");
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 10px;
+}
+
+h1 {
+  font-family: Contrail One;
+  font-weight: 200;
+  font-size: 4rem;
+  margin: 20px;
+  color: rgb(231, 174, 89);
+  background: -webkit-linear-gradient(#eee, rgb(0, 174, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 4s infinite linear;
+}
+
+
+h2 {
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* --------------------------------------------Animations */
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
 }
