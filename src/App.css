@@ -7,10 +7,7 @@
 
 .colorshift {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 6rem;
-  font-weight: 100;
-  letter-spacing: 2px;
-  text-align: center;
+  letter-spacing: 6px;
   color: #f35626;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
@@ -24,8 +21,11 @@
 }
 
 .title-div {
+   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(21, 84, 126));
   /* margin-right: 30%; */
-  height: 300px;
+  height: 200px;
+  text-align: left;
+  padding: 20px;
 }
 
 html {
@@ -41,14 +41,16 @@ body {
 }
 
 h1 {
-  font-weight: 200;
-  font-size: 8rem;
+  font-size: 5rem;
   margin: 5px;
-  color: rgb(255, 255, 255);
 }
 
+
 .tagline {
-  font-size: 2rem;
+  font-family: Contrail One;
+  font-size: 2.5rem;
+  color: rgb(0, 162, 255);
+  margin-left: 150px;
 }
 
 h2 {
@@ -93,7 +95,7 @@ a {
 
 .movie-container {
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-columns: 250px 250px 250px 250px 250px;
   grid-gap: 10px;
 }
 
@@ -115,6 +117,10 @@ a {
 
 .genre-button:hover {
   border-color: rgb(0, 225, 255);
+}
+
+.genre-button:focus {
+  outline: 0;
 }
 
 .genres-container {
