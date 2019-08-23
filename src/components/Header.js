@@ -3,7 +3,7 @@ import React from "react"
 const Header = () => {
   return (
     <>
-      <h1>NEONFLIX</h1>
+      <h1 className="colorshift">NEONFLIX</h1>
     </>
   )
 }

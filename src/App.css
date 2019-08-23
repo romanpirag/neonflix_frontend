@@ -1,6 +1,7 @@
 @import "~normalize.css";
 @import url("https://fonts.googleapis.com/css?family=Contrail+One&display=swap");
 
+
 * {
   box-sizing: border-box;
 }
@@ -27,16 +28,12 @@ h1 {
   margin: 20px;
 }
 
-.colorshift {
+h1 {
+  font-family: Contrail One;
+  font-weight: 200;
+  font-size: 4rem;
+  margin: 20px;
   color: rgb(231, 174, 89);
-  background: -webkit-linear-gradient(#eee, rgb(0, 174, 255));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #f35626;
-  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 4s infinite linear;
 }
 
 h2 {
@@ -49,12 +46,4 @@ a {
 
 /* --------------------------------------------Animations */
 
-@-webkit-keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
 
-  to {
-    -webkit-filter: hue-rotate(360deg);
-  }
-}
