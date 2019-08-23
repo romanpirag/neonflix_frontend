@@ -23,7 +23,10 @@
   text-align: center;
 }
 
-
+.title-div {
+  /* margin-right: 30%; */
+  height: 300px;
+}
 
 html {
   background-image: url("https://www.xmple.com/wallpaper/black-purple-gradient-linear-1920x1080-c2-000000-4b0082-a-150-f-14.svg");
@@ -39,9 +42,13 @@ body {
 
 h1 {
   font-weight: 200;
-  font-size: 4rem;
-  margin: 20px;
+  font-size: 8rem;
+  margin: 5px;
   color: rgb(255, 255, 255);
+}
+
+.tagline {
+  font-size: 2rem;
 }
 
 h2 {
@@ -88,9 +95,32 @@ a {
   display: grid;
   grid-template-columns: 250px 250px 250px 250px;
   grid-gap: 10px;
-  
 }
 
+.genre-button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 3px;
+  padding: 15px;
+  opacity: 0.8;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-color: rgb(49, 49, 49);
+  border-width: 2px;
+  box-shadow: 6px 8px 3px 1px black;
+}
+
+.genre-button:hover {
+  border-color: rgb(0, 225, 255);
+}
+
+.genres-container {
+  display: flex;
+  margin: 20px;
+}
 
 /* --------------------------------------------Animations */
 
