@@ -1,7 +1,6 @@
 @import "~normalize.css";
 @import url("https://fonts.googleapis.com/css?family=Contrail+One&display=swap");
 
-
 * {
   box-sizing: border-box;
 }
@@ -12,8 +11,8 @@
 
 html {
   background-image: url("https://www.xmple.com/wallpaper/black-purple-gradient-linear-1920x1080-c2-000000-4b0082-a-150-f-14.svg");
-  background-size: cover;
-  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 body {
@@ -44,6 +43,8 @@ a {
   text-decoration: none;
 }
 
+.poster {
+  max-width: 200px;
+}
+
 /* --------------------------------------------Animations */
-
-

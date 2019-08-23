@@ -3,14 +3,19 @@ import Movie from "./Movie"
 
 
 
-const MoviesContainer = () => {
+
+
+
+
+const MoviesContainer = (props) => {
+    let moviesMapped = props.movies.map(movie => {
+        return <Movie movie={movie}/>
+    })
+
+
     return(
         <>
-           <Movie/>
-           <Movie/>
-           <Movie/>
-           <Movie/>
-           <Movie/>
+           {moviesMapped}
         </>
     )
 }
