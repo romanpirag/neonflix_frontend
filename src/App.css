@@ -25,7 +25,9 @@
   height: 200px;
   text-align: left;
   padding: 10px;
-  margin-left: 30px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  transform: rotate(-5deg)
 }
 
 .tagline {
@@ -86,6 +88,8 @@ a {
 .moviecard:hover {
   max-height: 300px;
   border: solid 2px rgb(0, 217, 255);
+  transform: scale(1.02);
+  transition: all ease 200ms; 
 }
 
 .image {
@@ -116,6 +120,8 @@ a {
 
 .genre-button:hover {
   border-color: rgb(0, 225, 255);
+  transform: scale(1.03);
+  transition: all ease 200ms; 
 }
 
 .genre-button:focus {
