@@ -5,7 +5,7 @@ const Header = () => {
     <div className="title-div">
       <h1 className="colorshift">NEONFLIX</h1>
       <div className="tagline">
-        Choose Your Destiny
+        Stream Your Destiny
       </div>
     </div>
   )
