@@ -5,6 +5,21 @@
   box-sizing: border-box;
 }
 
+.colorshift  {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 6rem;
+	font-weight:  100;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #f35626;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
+
+
+
 .App {
   text-align: center;
 }
@@ -20,19 +35,14 @@ body {
   font-size: 10px;
 }
 
-h1 {
-  font-family: Contrail One;
-  font-weight: 200;
-  font-size: 4rem;
-  margin: 20px;
-}
+
 
 h1 {
-  font-family: Contrail One;
+
   font-weight: 200;
   font-size: 4rem;
   margin: 20px;
-  color: rgb(231, 174, 89);
+  color: rgb(255, 255, 255);
 }
 
 h2 {
@@ -45,6 +55,22 @@ a {
 
 .poster {
   max-width: 200px;
+  border: solid 2px rgb(26, 26, 26);
+}
+
+.poster:hover {
+  max-width: 200px;
+  border: solid 2px rgb(0, 217, 255);
 }
 
 /* --------------------------------------------Animations */
+
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
