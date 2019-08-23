@@ -16,7 +16,6 @@
 }
 
 .App {
-  padding-top: 30px;
   text-align: center;
 }
 
@@ -25,7 +24,15 @@
   /* margin-right: 30%; */
   height: 200px;
   text-align: left;
-  padding: 20px;
+  padding: 50px;
+  margin-left: 30px;
+}
+
+.tagline {
+  font-family: Contrail One;
+  font-size: 2.5rem;
+  color: rgb(0, 162, 255);
+  margin-left: 50px;
 }
 
 html {
@@ -43,14 +50,6 @@ body {
 h1 {
   font-size: 5rem;
   margin: 5px;
-}
-
-
-.tagline {
-  font-family: Contrail One;
-  font-size: 2.5rem;
-  color: rgb(0, 162, 255);
-  margin-left: 150px;
 }
 
 h2 {
@@ -90,13 +89,13 @@ a {
 }
 
 .image {
-  max-width: 100px;
+  max-width: 180px;
 }
 
 .movie-container {
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px 250px;
-  grid-gap: 10px;
+  grid-template-columns: 210px 210px 210px 210px 210px 210px;
+  grid-gap: 15px;
 }
 
 .genre-button {
@@ -125,7 +124,10 @@ a {
 
 .genres-container {
   display: flex;
-  margin: 20px;
+  margin: 10px;
+  margin-left: 90px;
+  width: 100%;
+  justify-content: left;
 }
 
 /* --------------------------------------------Animations */
