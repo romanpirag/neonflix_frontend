@@ -2,11 +2,11 @@ import React from "react"
 
 
 const Movie = (props) => {
-    return(
-        <>
-        <div>{props.movie.title}</div>
-        <img className="poster" alt='' src={props.movie.image}></img>
-        </>
+    return (
+      <div className="moviecard">
+        <h2>{props.movie.title}</h2>
+        <img alt="" className="image" src={props.movie.image} />
+      </div>
     )
 }
 

@@ -12,11 +12,10 @@ const MoviesContainer = (props) => {
         return <Movie movie={movie}/>
     })
 
-
     return(
-        <>
+        <div className="movie-container">
            {moviesMapped}
-        </>
+        </div>
     )
 }
 

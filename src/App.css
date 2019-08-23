@@ -5,27 +5,29 @@
   box-sizing: border-box;
 }
 
-.colorshift  {
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	font-size: 6rem;
-	font-weight:  100;
-	letter-spacing: 2px;
-	text-align: center;
-	color: #f35626;
-	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 10s infinite linear;
+.colorshift {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 6rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 10s infinite linear;
 }
 
-
-
 .App {
+  padding-top: 30px;
   text-align: center;
 }
 
+
+
 html {
   background-image: url("https://www.xmple.com/wallpaper/black-purple-gradient-linear-1920x1080-c2-000000-4b0082-a-150-f-14.svg");
+  background-color: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -35,10 +37,7 @@ body {
   font-size: 10px;
 }
 
-
-
 h1 {
-
   font-weight: 200;
   font-size: 4rem;
   margin: 20px;
@@ -46,6 +45,7 @@ h1 {
 }
 
 h2 {
+  color: white;
   font-size: 1.3rem;
 }
 
@@ -53,18 +53,46 @@ a {
   text-decoration: none;
 }
 
-.poster {
-  max-width: 200px;
-  border: solid 2px rgb(26, 26, 26);
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
 }
 
-.poster:hover {
-  max-width: 200px;
+.moviecard {
+  
+  border: solid 2px rgb(26, 26, 26);
+
+  background-color: white;
+  border-radius: 5px;
+  max-height: 300px;
+  text-align: center;
+  padding: 5px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 6px 8px 8px 2px black;
+  cursor: pointer;
+}
+
+.moviecard:hover {
+  max-height: 300px;
   border: solid 2px rgb(0, 217, 255);
 }
 
-/* --------------------------------------------Animations */
+.image {
+  max-width: 100px;
+}
 
+.movie-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-gap: 10px;
+  
+}
+
+
+/* --------------------------------------------Animations */
 
 @-webkit-keyframes hue {
   from {
