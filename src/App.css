@@ -1,11 +1,9 @@
-/* @import "~normalize.css"; */
+@import "~normalize.css";
 @import url("https://fonts.googleapis.com/css?family=Contrail+One&display=swap");
-
 
 * {
   box-sizing: border-box;
 }
-
 
 .App {
   text-align: center;
@@ -27,6 +25,9 @@ h1 {
   font-weight: 200;
   font-size: 4rem;
   margin: 20px;
+}
+
+.colorshift {
   color: rgb(231, 174, 89);
   background: -webkit-linear-gradient(#eee, rgb(0, 174, 255));
   -webkit-background-clip: text;
@@ -37,7 +38,6 @@ h1 {
   -webkit-text-fill-color: transparent;
   -webkit-animation: hue 4s infinite linear;
 }
-
 
 h2 {
   font-size: 1.3rem;

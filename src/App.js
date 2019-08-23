@@ -11,6 +11,7 @@ function App() {
       </header>
       <main>
         <MainPage/>
+        <h3 className="colorshift">HELLLLLLLLOOOOO</h3>
       </main>
     </div>
   );
