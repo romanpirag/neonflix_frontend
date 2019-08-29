@@ -73,7 +73,7 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.8rem;
   margin: 5px;
 }
 
@@ -114,11 +114,12 @@ a {
   .movie-container {
     display: grid;
     grid-template-columns: 210px 210px 210px 210px 210px 210px;
+      grid-gap: 5px;
   }
 }
 
 .moviecard {
-  border: solid 2px rgb(26, 26, 26);
+  border: solid 2px rgb(197, 0, 0);
 
   background-color: white;
   border-radius: 5px;
@@ -131,10 +132,26 @@ a {
   cursor: pointer;
 }
 
-@media (min-width: 500) {
+@media (min-width: 500px) {
+  .moviecard {
+    border: solid 2px rgb(197, 0, 0);
+
+    background-color: white;
+    border-radius: 5px;
+    max-height: 300px;
+    text-align: center;
+    padding: 5px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    /* box-shadow: 6px 8px 8px 2px black; */
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 500px) {
   .moviecard:hover {
     max-height: 540px;
-    border: solid px rgb(0, 217, 255);
+    border: solid 2px rgb(0, 217, 255);
     transform: scale(1.02);
     transition: all ease 200ms;
   }
@@ -163,7 +180,8 @@ a {
 
 @media (min-width: 500px) {
   .genres-container {
-    justify-content: left;
+      justify-content: left;
+      padding: 0 0 0 4%;
   }
 }
 
@@ -192,7 +210,7 @@ a {
     font-size: 1rem;
 
     border-width: 2px;
-    box-shadow: 6px 8px 3px 1px black;
+    box-shadow: 3px 4px 3px 1px black;
   }
 }
 
