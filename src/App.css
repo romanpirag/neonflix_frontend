@@ -93,6 +93,10 @@ a {
   padding: 15px;
 }
 
+/* ----------------------------------
+          MOVIES MOVIES MOVIES | | | 
+---------------------------------- */
+
 .movie-container {
   display: grid;
   height: 100px;
@@ -138,20 +142,52 @@ a {
   }
 }
 
+/* ----------------------------------
+          GENRES GENRES GENRES | | |
+---------------------------------- */
+
+.genres-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+@media (min-width: 500px) {
+  .genres-container {
+    justify-content: left;
+  }
+}
+
+
+
 .genre-button {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: black;
   color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  padding: 4px;
+  opacity: 0.8;
+  font-size: .8rem;
+  text-transform: uppercase;
+  border-color: rgb(49, 49, 49);
+  border-width: 2px;
+}
+
+@media (min-width: 500px) {
+  .genre-button {
   border-radius: 10px;
   cursor: pointer;
   margin: 3px;
   padding: 15px;
-  opacity: 0.8;
+
   font-size: 1rem;
-  text-transform: uppercase;
-  border-color: rgb(49, 49, 49);
+
+
   border-width: 2px;
   box-shadow: 6px 8px 3px 1px black;
+}
 }
 
 .genre-button:hover {
@@ -162,14 +198,6 @@ a {
 
 .genre-button:focus {
   outline: 0;
-}
-
-.genres-container {
-  display: flex;
-  margin: 10px;
-  margin-left: 90px;
-  width: 100%;
-  justify-content: left;
 }
 
 /* --------------------------------------------Animations */
