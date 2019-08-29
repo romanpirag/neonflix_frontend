@@ -107,7 +107,7 @@ a {
 
 .movie-container {
   display: grid;
-  grid-template-columns: 250px;
+  grid-template-columns: 360px;
   grid-gap: 15px;
 }
 
@@ -123,24 +123,26 @@ a {
 
   background-color: white;
   border-radius: 5px;
-  max-height: 300px;
+  max-height: 520px;
   text-align: center;
   padding: 5px;
 
   background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 6px 8px 8px 2px black;
+  /* box-shadow: 6px 8px 8px 2px black; */
   cursor: pointer;
 }
 
+@media
+
 .moviecard:hover {
-  max-height: 300px;
+  max-height: 540px;
   border: solid px rgb(0, 217, 255);
   transform: scale(1.02);
   transition: all ease 200ms;
 }
 
 .image {
-  max-width: 180px;
+  max-width: 340px;
 }
 
 @media (min-width: 500px) {
@@ -157,6 +159,7 @@ a {
   display: flex;
   width: 100%;
   justify-content: center;
+  margin: 8px;
 }
 
 @media (min-width: 500px) {
