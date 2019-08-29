@@ -1,7 +1,7 @@
 import React from "react"
 
-const Genre = () => {
-  return <button className="genre-button">[GENRE]</button>
+const Genre = (props) => {
+  return <button className="genre-button">{props.genreName}</button>
 }
 
 export default Genre
