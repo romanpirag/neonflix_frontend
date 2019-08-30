@@ -36,8 +36,8 @@ body {
 }
 
 h1 {
-  font-size: 3.8rem;
-  margin: 5px;
+  font-size: 3rem;
+  margin: 1px;
 }
 
 @media (min-width: 500px) {
@@ -60,12 +60,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
+  padding: 0  15px 0 15px;
 }
 
 .tagline {
   font-family: Contrail One;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   color: rgb(0, 162, 255);
 }
 
@@ -97,7 +97,7 @@ a {
 
 .movie-container {
   display: grid;
-  grid-template-columns: 125px 120px 120px;
+  grid-template-columns: 100px 100px 100px;
   grid-gap: 3px;
 }
 
@@ -114,9 +114,9 @@ a {
 
   background-color: white;
   border-radius: 5px;
-  max-height: 200px;
+  max-width: 200px;
   text-align: center;
-  padding: 5px;
+  padding: 2px;
 
   background-color: rgba(0, 0, 0, 0.5);
   /* box-shadow: 6px 8px 8px 2px black; */
@@ -149,7 +149,7 @@ a {
 }
 
 .image {
-  max-width: 105px;
+  max-width: 90px;
 }
 
 @media (min-width: 500px) {
@@ -183,12 +183,12 @@ a {
   border-radius: 5px;
   cursor: pointer;
   margin: 1px;
-  padding: 4px;
+  padding: 3px;
   opacity: 0.8;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   border-color: rgb(49, 49, 49);
-  border-width: 2px;
+  border-width: 1px;
 }
 
 @media (min-width: 500px) {
