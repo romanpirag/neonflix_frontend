@@ -10,7 +10,6 @@
   height: 100%;
 }
 
-
 html {
   background: linear-gradient(
       rgb(38, 122, 170),
@@ -60,7 +59,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0  15px 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 .tagline {
@@ -105,7 +104,7 @@ a {
   .movie-container {
     display: grid;
     grid-template-columns: 210px 210px 210px 210px 210px 210px;
-      grid-gap: 5px;
+    grid-gap: 5px;
   }
 }
 
@@ -171,21 +170,22 @@ a {
 
 @media (min-width: 500px) {
   .genres-container {
-      justify-content: left;
-      padding: 0 0 0 4%;
+    justify-content: left;
+    padding: 0 0 0 4%;
   }
 }
 
 .genre-button {
+  min-width: 50px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: black;
   color: white;
   border-radius: 5px;
   cursor: pointer;
   margin: 1px;
-  padding: 3px;
+  padding: 7px;
   opacity: 0.8;
-  font-size: 0.7rem;
+  font-size: 0.4rem;
   text-transform: uppercase;
   border-color: rgb(49, 49, 49);
   border-width: 1px;
@@ -213,6 +213,16 @@ a {
 
 .genre-button:focus {
   outline: 0;
+}
+
+.genreCount {
+    display: none;
+  }
+
+@media (min-width: 500px) {
+  .genreCount {
+    display: block;
+  }
 }
 
 /* ----------------------------------
