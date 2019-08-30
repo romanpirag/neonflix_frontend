@@ -5,48 +5,11 @@
   box-sizing: border-box;
 }
 
-.colorshift {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  letter-spacing: 6px;
-  color: #f35626;
-  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 10s infinite linear;
-}
-
 .App {
   text-align: center;
   height: 100%;
 }
 
-.title-div {
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 0, 0, 0),
-    rgb(21, 84, 126)
-  );
-  /* margin-right: 30%; */
-  /* height: 200px;
-  text-align: left;
-  padding: 10px;
-  margin-left: 60px;
-  margin-bottom: 50px;
-  transform: rotate(-5deg) */
-}
-
-.tagline {
-  font-family: Contrail One;
-  font-size: 1.6rem;
-  color: rgb(0, 162, 255);
-}
-
-@media (min-width: 500px) {
-  .tagline {
-    font-size: 2.5rem;
-    margin-left: 50px;
-  }
-}
 
 html {
   background: linear-gradient(
@@ -98,6 +61,34 @@ a {
   flex-direction: column;
   align-items: center;
   padding: 15px;
+}
+
+.tagline {
+  font-family: Contrail One;
+  font-size: 1.6rem;
+  color: rgb(0, 162, 255);
+}
+
+@media (min-width: 500px) {
+  .tagline {
+    font-size: 2.5rem;
+    margin-left: 50px;
+  }
+}
+
+.title-div {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(21, 84, 126)
+  );
+  /* margin-right: 30%; */
+  /* height: 200px;
+  text-align: left;
+  padding: 10px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  transform: rotate(-5deg) */
 }
 
 /* ----------------------------------
@@ -224,7 +215,19 @@ a {
   outline: 0;
 }
 
-/* --------------------------------------------Animations */
+/* ----------------------------------
+          ANIMATIONS ANIMATIONS | | |
+---------------------------------- */
+
+.colorshift {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  letter-spacing: 6px;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 10s infinite linear;
+}
 
 @-webkit-keyframes hue {
   from {
