@@ -1,5 +1,5 @@
 import React from "react"
-import MoviesContainer from "./MoviesContainer";
+import MoviesContainer from "./MoviesContainer"
 import GenresContainer from "./GenresContainer"
 
 let API = "https://neonflix-api.herokuapp.com/api/v1/movies"
