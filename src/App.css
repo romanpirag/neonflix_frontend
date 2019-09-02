@@ -103,7 +103,7 @@ a {
 }
 
 .image:hover {
-  border: solid 2px rgb(0, 196, 245);
+  border: solid 2px rgb(245, 0, 184);
 }
 
 /* ----------------------------------
@@ -111,16 +111,11 @@ a {
 ---------------------------------- */
 
 .genres-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   width: 100%;
-  justify-content: left;
+  height: 80px;
   margin-bottom: 5px;
-}
-
-@media (min-width: 500px) {
-  .genres-container {
-    justify-content: left;
-  }
 }
 
 .genre-button {
@@ -133,25 +128,10 @@ a {
   margin: 1px;
   padding: 7px;
   opacity: 0.8;
-  font-size: 0.4rem;
+  font-size: .5rem;
   text-transform: uppercase;
   border-color: rgb(49, 49, 49);
   border-width: 1px;
-}
-
-@media (min-width: 500px) {
-  .genre-button {
-    border-radius: 10px;
-    width: 300px;
-    cursor: pointer;
-    margin: 3px;
-    padding: 15px;
-
-    font-size: 1rem;
-
-    border-width: 2px;
-    box-shadow: 3px 4px 3px 1px black;
-  }
 }
 
 .genre-button:hover {
