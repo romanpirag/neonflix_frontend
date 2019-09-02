@@ -17,11 +17,10 @@ class MainPage extends React.Component {
 
   render() {
     return (
-      <div className="container">
+     <>
         <GenresContainer movies={this.state.movies} />
-
         <MoviesContainer movies={this.state.movies} />
-      </div>
+     </>
     )
   }
 }
