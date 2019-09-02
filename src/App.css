@@ -8,6 +8,7 @@
 .App {
   text-align: center;
   height: 100%;
+  padding: 5px;
 }
 
 html {
@@ -63,10 +64,12 @@ a {
 .title-div {
   background-image: linear-gradient(
     to right,
-    rgba(255, 0, 0, 0),
-    rgb(21, 84, 126)
+    rgba(196, 70, 175, 0),
+    rgb(233, 0, 109)
   );
   text-align: left;
+  padding: 0 0 0 10px;
+  margin-bottom: 5px;
 }
 
 .container {
@@ -110,14 +113,13 @@ a {
 .genres-container {
   display: flex;
   width: 100%;
-  justify-content: center;
-  margin: 8px;
+  justify-content: left;
+  margin-bottom: 5px;
 }
 
 @media (min-width: 500px) {
   .genres-container {
     justify-content: left;
-    padding: 0 0 0 4%;
   }
 }
 
@@ -140,6 +142,7 @@ a {
 @media (min-width: 500px) {
   .genre-button {
     border-radius: 10px;
+    width: 300px;
     cursor: pointer;
     margin: 3px;
     padding: 15px;
@@ -167,7 +170,11 @@ a {
 
 @media (min-width: 500px) {
   .genreCount {
+    font-family: Contrail One;
+    color: rgb(212, 0, 131);
+    font-size: 1rem;
     display: block;
+
   }
 }
 
