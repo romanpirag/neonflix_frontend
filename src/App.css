@@ -66,13 +66,7 @@ a {
     rgba(255, 0, 0, 0),
     rgb(21, 84, 126)
   );
-  margin-right: 30%;
-  height: 200px;
   text-align: left;
-  padding: 10px;
-  margin-left: 60px;
-  margin-bottom: 50px;
-  transform: rotate(-5deg);
 }
 
 .container {
