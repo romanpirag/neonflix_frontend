@@ -54,18 +54,11 @@ a {
   text-decoration: none;
 }
 
-/* .tagline {
+.tagline {
   font-family: Contrail One;
   font-size: 1.9rem;
   color: rgb(0, 162, 255);
 }
-
-@media (min-width: 500px) {
-  .tagline {
-    font-size: 2.5rem;
-    margin-left: 50px;
-  }
-} */
 
 .title-div {
   background-image: linear-gradient(
@@ -73,17 +66,17 @@ a {
     rgba(255, 0, 0, 0),
     rgb(21, 84, 126)
   );
-  /* margin-right: 30%; */
-  /* height: 200px;
+  margin-right: 30%;
+  height: 200px;
   text-align: left;
   padding: 10px;
   margin-left: 60px;
   margin-bottom: 50px;
-  transform: rotate(-5deg) */
+  transform: rotate(-5deg);
 }
 
 .container {
-  padding: 0 5px 0 5px; 
+  padding: 0 5px 0 5px;
 }
 
 /* ----------------------------------
@@ -112,11 +105,15 @@ a {
   box-shadow: 1px 0 0;
 }
 
+.image:hover {
+  border: solid 2px rgb(0, 196, 245);
+}
+
 /* ----------------------------------
           GENRES GENRES GENRES | | |
 ---------------------------------- */
 
-/* .genres-container {
+.genres-container {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -171,14 +168,14 @@ a {
 }
 
 .genreCount {
-    display: none;
-  }
+  display: none;
+}
 
 @media (min-width: 500px) {
   .genreCount {
     display: block;
   }
-} */
+}
 
 /* ----------------------------------
           ANIMATIONS ANIMATIONS | | |
