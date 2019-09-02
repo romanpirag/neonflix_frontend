@@ -81,10 +81,29 @@ a {
 ---------------------------------- */
 
 .movie-container {
+  margin-top: 90px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 4px;
   justify-items: center;
+}
+
+@media (min-width: 420px) {
+  .movie-container {
+      margin-top: 10px;
+  }
+}
+
+@media (min-width: 620px) {
+  .movie-container {
+      margin-top: 100px;
+  }
+}
+
+@media (min-width: 500px) {
+  .movie-container {
+      margin-top: 65px;
+  }
 }
 
 @media (min-width: 700px) {
