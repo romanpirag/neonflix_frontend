@@ -36,8 +36,8 @@ body {
 }
 
 h1 {
-  font-family: "Poiret One";
-  font-size: 3rem;
+  font-family: Teko;
+  font-size: 2.5rem;
   margin: 1px;
 
   -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -47,7 +47,6 @@ h1 {
 
 h2 {
   color: white;
-  font-size: 1.3rem;
 }
 
 a {
@@ -56,7 +55,7 @@ a {
 
 .tagline {
   font-family: Contrail One;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgb(0, 162, 255);
 }
 
@@ -209,14 +208,14 @@ a {
   -webkit-animation: hue 10s infinite linear;
 }
 
-@-webkit-keyframes hue {
+/* @-webkit-keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);
   }
   to {
     -webkit-filter: hue-rotate(-360deg);
   }
-}
+} */
 
 @-webkit-keyframes glow {
   from {
