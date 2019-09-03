@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|Economica|Open+Sans+Condensed:300|Oswald|Pathway+Gothic+One|Prompt|Ropa+Sans|Teko&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dorsa|Italiana|Tulpen+One|Wire+One&display=swap");
 
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Libre+Barcode+128+Text|Major+Mono+Display|Monoton|Poiret+One|Staatliches|VT323&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -34,8 +36,13 @@ body {
 }
 
 h1 {
+  font-family: "Poiret One";
   font-size: 3rem;
   margin: 1px;
+
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
 h2 {
@@ -194,7 +201,6 @@ a {
 ---------------------------------- */
 
 .colorshift {
-  font-family: Teko;
   letter-spacing: 8px;
   color: #000000;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
@@ -209,5 +215,14 @@ a {
   }
   to {
     -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
