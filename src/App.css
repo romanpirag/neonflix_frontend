@@ -16,11 +16,11 @@
 
 html {
   background: linear-gradient(
-      rgb(38, 122, 170),
-      rgb(1, 35, 97) 30%,
+      rgb(5, 89, 138),
+      rgb(17, 17, 17) 30%,
       transparent
     ),
-    repeating-linear-gradient(rgb(0, 39, 70), rgb(0, 40, 114) 90px);
+    repeating-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0) 90px);
 
   background-color: black;
   background-repeat: no-repeat;
@@ -60,15 +60,15 @@ a {
 
 .tagline {
   font-family: Contrail One;
-  font-size: 1.9rem;
+  font-size: 1.2rem;
   color: rgb(0, 162, 255);
 }
 
 .title-div {
   background-image: linear-gradient(
-    to right,
-    rgba(196, 70, 175, 0),
-    rgb(233, 0, 109)
+    45deg,
+    rgba(0, 0, 0, 0),
+    rgb(0, 0, 0)
   );
   text-align: left;
   padding: 0 0 0 10px;
@@ -178,13 +178,13 @@ a {
 ---------------------------------- */
 
 .colorshift {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  letter-spacing: 6px;
-  color: #f35626;
-  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  font-family: Teko;
+  letter-spacing: 8px;
+  color: #000000;
+  /* background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 10s infinite linear;
+  -webkit-animation: hue 10s infinite linear; */
 }
 
 @-webkit-keyframes hue {
