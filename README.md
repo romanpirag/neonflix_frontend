@@ -1,4 +1,4 @@
-This is the readme for NEONFLIX!
+<!-- This is the readme for NEONFLIX!
 
 A 1980's remake of NETFLIX.
 Watch your favorite 80's movie by genre.
@@ -10,9 +10,12 @@ Send all comments and suggestions to romanpirag@gmail.com
 
 Using CSS GRID for responsive design
 
-[Google](https://www.google.com)
+[Google](https://www.google.com) -->
+
 
 # NeonFlix
+
+![NeonFlix](https://cdn.hswstatic.com/gif/water-life-crop.jpg)
 
 One Paragraph of project description goes here
 
