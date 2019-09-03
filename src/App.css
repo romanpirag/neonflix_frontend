@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|Economica|Open+Sans+Condensed:300|Oswald|Pathway+Gothic+One|Prompt|Ropa+Sans|Teko&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dorsa|Italiana|Tulpen+One|Wire+One&display=swap");
 
-
 * {
   box-sizing: border-box;
 }
@@ -15,11 +14,7 @@
 }
 
 html {
-  background: linear-gradient(
-      rgb(5, 89, 138),
-      rgb(17, 17, 17) 30%,
-      transparent
-    ),
+  background: linear-gradient(rgb(5, 89, 138), rgb(17, 17, 17) 30%, transparent),
     repeating-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0) 90px);
 
   background-color: black;
@@ -43,12 +38,6 @@ h1 {
   margin: 1px;
 }
 
-/* @media (min-width: 500px) {
-  h1 {
-    font-size: 5rem;
-  }
-} */
-
 h2 {
   color: white;
   font-size: 1.3rem;
@@ -65,20 +54,40 @@ a {
 }
 
 .title-div {
-  background-image: linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 0),
-    rgb(0, 0, 0)
-  );
+  width: 100%;
+
   text-align: left;
   padding: 0 0 0 10px;
   margin-bottom: 5px;
 }
 
-.container {
-  padding: 0 5px 0 5px;
+.right-side-links {
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 0; 
 }
 
+.gitlink,.linkedin-link {
+  margin: 5px;
+  font-size: 3rem;
+  z-index: 1;
+  color: rgb(110, 135, 154);
+}
+
+.gitlink:hover,
+.linkedin-link:hover {
+  margin: 5px;
+  font-size: 3rem;
+  z-index: 1;
+  color: rgb(255, 115, 0);
+}
+
+.header {
+  width: 100%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+  display: flex;
+  justify-content: space-between;
+}
 /* ----------------------------------
           MOVIES MOVIES MOVIES | | | 
 ---------------------------------- */
@@ -94,19 +103,19 @@ a {
 
 @media (min-width: 415px) {
   .movie-container {
-      margin-top: 90px;
+    margin-top: 90px;
   }
 }
 
 @media (min-width: 500px) {
   .movie-container {
-      margin-top: 80px;
+    margin-top: 80px;
   }
 }
 
 @media (min-width: 620px) {
   .movie-container {
-      margin-top: 35px;
+    margin-top: 35px;
   }
 }
 
@@ -127,7 +136,7 @@ a {
 }
 
 .image:hover {
-   border-color: rgb(0, 225, 255);
+  border-color: rgb(0, 225, 255);
 }
 
 /* ----------------------------------
