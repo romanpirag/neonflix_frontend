@@ -18,9 +18,12 @@ const Header = () => {
           className="input"
           type="text"
           name="fname"
-          placeholder="Password"
+          placeholder="Email or Phone"
         ></input>
       </div>
+      <button className="signin">
+        <h2>SIGN IN</h2>
+      </button>
       <div className="right-side-links">
         <a
           className="gitlink"
