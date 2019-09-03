@@ -3,37 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|Economica|Open+Sans+Condensed:300|Oswald|Pathway+Gothic+One|Prompt|Ropa+Sans|Teko&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dorsa|Italiana|Tulpen+One|Wire+One&display=swap");
 
-@font-face {
-  font-family: neon;
-  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
-}
 
-.neon {
-  font-family: neon;
-  color: #FB4264;
-  font-size: 2rem;
-  line-height: 9vw;
-  text-shadow: 0 0 3vw #F40A35;
-}
-
-
-.neon {
-  animation: neon 1s ease infinite;
-  -moz-animation: neon 1s ease infinite;
-  -webkit-animation: neon 1s ease infinite;
-}
-
-@keyframes neon {
-  0%,
-  100% {
-    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
-    color: #FED128;
-  }
-  50% {
-    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
-    color: #806914;
-  }
-}
 
 
 * {
@@ -203,14 +173,15 @@ a {
 .image {
   display: block;
   border-radius: 2px;
-  border: solid 2px rgb(70, 70, 70);
+  border: solid 2px;
   width: 100%;
   cursor: pointer;
   box-shadow: 1px 0 0;
 }
 
 .image:hover {
-  border-color: rgb(0, 225, 255);
+  border: solid 2px;
+  border-image: linear-gradient(to bottom left, rgb(235, 235, 235), rgb(0, 217, 255)) 0.5 stretch;
 }
 
 /* ----------------------------------
@@ -237,6 +208,7 @@ a {
   min-width: 50px;
   background-color: black;
   color: white;
+  border: solid 2px black;
   border-radius: 5px;
   cursor: pointer;
   margin: 1px;
@@ -244,12 +216,11 @@ a {
   opacity: 0.8;
   font-size: 1.4rem;
   text-transform: uppercase;
-  border-color: rgb(49, 49, 49);
-  border-width: 2px;
 }
 
 .genre-button:hover {
-  border-color: rgb(0, 225, 255);
+  border: solid 2px;
+  border-image: linear-gradient(to bottom left, rgb(235, 235, 235), rgb(0, 217, 255)) 0.5 stretch;
 }
 
 .genre-button:focus {
