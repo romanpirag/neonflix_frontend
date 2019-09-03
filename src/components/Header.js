@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="title-div">
-        <h1 className="colorshift">NEONFLIX</h1>
+        <h1 className="colorshift neon">NEONFICKS</h1>
         <div className="tagline">1980's Movie Nostalgia</div>
       </div>
       <div className="input-div">

@@ -3,6 +3,35 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|Economica|Open+Sans+Condensed:300|Oswald|Pathway+Gothic+One|Prompt|Ropa+Sans|Teko&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dorsa|Italiana|Tulpen+One|Wire+One&display=swap");
 
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+.neon {
+  font-family: Teko;
+  color: #FB4264;
+  font-size: 3rem;
+  text-shadow: 0 0 3vw #F40A35;
+
+   animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+
 * {
   box-sizing: border-box;
 }
