@@ -7,6 +7,20 @@ const Header = () => {
         <h1 className="colorshift">NEONFLIX</h1>
         <div className="tagline">1980's Movie Nostalgia</div>
       </div>
+      <div className="input-div">
+        <input
+          className="input"
+          type="text"
+          name="fname"
+          placeholder="Screen Name"
+        ></input>
+        <input
+          className="input"
+          type="text"
+          name="fname"
+          placeholder="Password"
+        ></input>
+      </div>
       <div className="right-side-links">
         <a
           className="gitlink"
