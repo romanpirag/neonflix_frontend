@@ -17,10 +17,16 @@ class MainPage extends React.Component {
 
   render() {
     return (
-     <>
-        <GenresContainer movies={this.state.movies} />
-        <MoviesContainer movies={this.state.movies} />
-     </>
+      <>
+        {this.state.movies.length > 0 ? (
+          <>
+            <GenresContainer movies={this.state.movies} />
+            <MoviesContainer movies={this.state.movies} />
+          </>
+        ) : (
+          <h1>LOADING...</h1>
+        )}
+      </>
     )
   }
 }
