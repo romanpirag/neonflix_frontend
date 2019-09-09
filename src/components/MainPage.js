@@ -24,7 +24,9 @@ class MainPage extends React.Component {
             <MoviesContainer movies={this.state.movies} />
           </>
         ) : (
-          <h1>LOADING...</h1>
+          <div className="loadingdiv">
+            <img src="https://i.imgur.com/GCNyjJY.gif" alt="Loading" />
+          </div>
         )}
       </>
     )
