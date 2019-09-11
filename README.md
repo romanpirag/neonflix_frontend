@@ -1,5 +1,5 @@
 
-![NeonFlix](https://i.imgur.com/aKx2Sjh.png)
+![NeonFlix](https://i.imgur.com/a87UI96.png)
 
 # NeonFlix
 The 1980's inspired Neon Netflix of the future!
