@@ -1,7 +1,7 @@
 
 ![NeonFlix](https://i.imgur.com/a87UI96.png)
 
-# NeonFlix
+# NEONFLIX
 The 1980's inspired Neon Netflix of the future!
 Watch your favorite 80's movie by genre.
 
