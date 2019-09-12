@@ -25,6 +25,7 @@ class MainPage extends React.Component {
           </>
         ) : (
           <div className="loadingdiv">
+            <h1>Loading Heroku Resources...</h1>
             <img src="https://i.imgur.com/GCNyjJY.gif" alt="Loading" />
           </div>
         )}
