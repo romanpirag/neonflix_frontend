@@ -16,18 +16,6 @@ Watch your favorite 80's movie by genre.
 ☝️🤓 A project to create an 80's stylized version of NETFLIX. 
 
 
-## Contact
-
-Send all comments and suggestions to romanpirag@gmail.com
-
-Connect with me on LinkedIn: 
-https://www.linkedin.com/in/romanpirag/
-
-Personal portfolio: 
-https://www.romanpirag.com 
-
-Resume: 
-https://drive.google.com/file/d/1ItH7v8lM-nxVRUY2Yfw_YPkRPtQOts4w/view
 
 
 
